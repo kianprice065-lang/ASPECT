@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content - ASPECT Esports</title>
+    <meta name="description" content="Discover exclusive content from ASPECT Esports including videos, streams, tutorials, and behind-the-scenes footage.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <span class="logo-text">ASPECT</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link">HOME</a>
+                    <a href="partners.html" class="nav-link">PARTNERS</a>
+                    <a href="teams.html" class="nav-link">TEAMS</a>
+                    <a href="content.html" class="nav-link active">CONTENT</a>
+                    <a href="news.html" class="nav-link">NEWS</a>
+                    <a href="shop.html" class="nav-link">SHOP</a>
+                </nav>
+
+                <!-- Right side icons -->
+                <div class="header-icons">
+                    <button class="icon-btn">
+                        <i class="fas fa-user"></i>
+                    </button>
+                    <button class="icon-btn">
+                        <i class="fas fa-shopping-bag"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="nav-mobile" id="mobileNav">
+                <a href="index.html" class="nav-link-mobile">HOME</a>
+                <a href="partners.html" class="nav-link-mobile">PARTNERS</a>
+                <a href="teams.html" class="nav-link-mobile">TEAMS</a>
+                <a href="content.html" class="nav-link-mobile">CONTENT</a>
+                <a href="news.html" class="nav-link-mobile">NEWS</a>
+                <a href="shop.html" class="nav-link-mobile">SHOP</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <div class="section-badge">
+                    <span>EXCLUSIVE CONTENT</span>
+                </div>
+                <h1 class="page-title">
+                    Content <span class="gradient-text">Hub</span>
+                </h1>
+                <p class="page-subtitle">
+                    Dive into exclusive behind-the-scenes content, tutorials, live streams, and highlights from our professional teams.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Content -->
+    <section class="featured-content">
+        <div class="container">
+            <div class="featured-video">
+                <div class="video-container">
+                    <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Featured Video">
+                    <div class="video-overlay">
+                        <button class="play-btn">
+                            <i class="fas fa-play"></i>
+                        </button>
+                    </div>
+                    <div class="video-badge">FEATURED</div>
+                </div>
+                <div class="video-info">
+                    <h2 class="video-title">VALORANT Champions: Road to Victory</h2>
+                    <p class="video-description">
+                        Follow our VALORANT team's incredible journey to becoming world champions. This exclusive documentary features never-before-seen footage, player interviews, and behind-the-scenes moments from the championship run.
+                    </p>
+                    <div class="video-meta">
+                        <span class="video-duration">45:32</span>
+                        <span class="video-views">2.1M views</span>
+                        <span class="video-date">2 days ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Categories -->
+    <section class="content-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="all">ALL CONTENT</button>
+                <button class="tab-btn" data-category="highlights">HIGHLIGHTS</button>
+                <button class="tab-btn" data-category="tutorials">TUTORIALS</button>
+                <button class="tab-btn" data-category="streams">LIVE STREAMS</button>
+                <button class="tab-btn" data-category="behind-scenes">BEHIND THE SCENES</button>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card" data-category="highlights">
+                    <div class="content-image">
+                        <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=400" alt="VALORANT Highlights">
+                        <div class="content-overlay">
+                            <button class="play-btn-small">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="content-type">HIGHLIGHTS</div>
+                        <div class="content-duration">12:45</div>
+                    </div>
+                    <div class="content-info">
+                        <h3 class="content-title">Best VALORANT Plays of 2024</h3>
+                        <p class="content-description">Watch the most incredible plays and clutch moments from our VALORANT team this season.</p>
+                        <div class="content-meta">
+                            <span class="content-views">856K views</span>
+                            <span class="content-date">1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card" data-category="tutorials">
+                    <div class="content-image">
+                        <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=400" alt="League Tutorial">
+                        <div class="content-overlay">
+                            <button class="play-btn-small">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="content-type">TUTORIAL</div>
+                        <div class="content-duration">18:22</div>
+                    </div>
+                    <div class="content-info">
+                        <h3 class="content-title">Master League of Legends: Advanced Jungle Pathing</h3>
+                        <p class="content-description">Learn professional jungle routes and optimization techniques from our LEC champion jungler.</p>
+                        <div class="content-meta">
+                            <span class="content-views">423K views</span>
+                            <span class="content-date">3 days ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card" data-category="streams">
+                    <div class="content-image">
+                        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Live Stream">
+                        <div class="content-overlay">
+                            <div class="live-indicator">
+                                <span class="live-dot"></span>
+                                LIVE
+                            </div>
+                        </div>
+                        <div class="content-type">LIVE STREAM</div>
+                        <div class="viewer-count">12.5K viewers</div>
+                    </div>
+                    <div class="content-info">
+                        <h3 class="content-title">CS2 Ranked Grind with ASPECT Pro</h3>
+                        <p class="content-description">Join our CS2 professional player for a ranked climb stream with live commentary and tips.</p>
+                        <div class="content-meta">
+                            <span class="content-status live">LIVE NOW</span>
+                            <span class="content-platform">Twitch</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card" data-category="behind-scenes">
+                    <div class="content-image">
+                        <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Behind the Scenes">
+                        <div class="content-overlay">
+                            <button class="play-btn-small">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="content-type">BEHIND THE SCENES</div>
+                        <div class="content-duration">25:18</div>
+                    </div>
+                    <div class="content-info">
+                        <h3 class="content-title">Day in the Life: ASPECT Gaming House</h3>
+                        <p class="content-description">Get an exclusive look inside our gaming house and see how our players prepare for competitions.</p>
+                        <div class="content-meta">
+                            <span class="content-views">1.2M views</span>
+                            <span class="content-date">5 days ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card" data-category="highlights">
+                    <div class="content-image">
+                        <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Rocket League Highlights">
+                        <div class="content-overlay">
+                            <button class="play-btn-small">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="content-type">HIGHLIGHTS</div>
+                        <div class="content-duration">8:33</div>
+                    </div>
+                    <div class="content-info">
+                        <h3 class="content-title">Rocket League Championship Goals</h3>
+                        <p class="content-description">The most spectacular goals and saves from our RLCS championship victory.</p>
+                        <div class="content-meta">
+                            <span class="content-views">634K views</span>
+                            <span class="content-date">1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-card" data-category="tutorials">
+                    <div class="content-image">
+                        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Aim Training">
+                        <div class="content-overlay">
+                            <button class="play-btn-small">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="content-type">TUTORIAL</div>
+                        <div class="content-duration">22:15</div>
+                    </div>
+                    <div class="content-info">
+                        <h3 class="content-title">Pro Aim Training Routine</h3>
+                        <p class="content-description">Follow the exact aim training routine used by our professional FPS players.</p>
+                        <div class="content-meta">
+                            <span class="content-views">789K views</span>
+                            <span class="content-date">2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Stats -->
+    <section class="content-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Videos Published</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="stat-number">50M+</div>
+                    <div class="stat-label">Total Views</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number">2.5M</div>
+                    <div class="stat-label">Subscribers</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Hours Streamed</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Logo and Description -->
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <span class="logo-text">ASPECT</span>
+                    </div>
+                    <p class="footer-description">
+                        Elite esports organization breeding the next generation of professional gamers, content creators, and competitive champions.
+                    </p>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="footer-title">ORGANIZATION</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">About Us</a></li>
+                            <li><a href="teams.html" class="footer-link">Our Teams</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                            <li><a href="#" class="footer-link">Press Kit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">COMPETITIONS</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Tournaments</a></li>
+                            <li><a href="#" class="footer-link">Match Schedule</a></li>
+                            <li><a href="#" class="footer-link">Results</a></li>
+                            <li><a href="#" class="footer-link">Rankings</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">COMMUNITY</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Discord</a></li>
+                            <li><a href="#" class="footer-link">Forums</a></li>
+                            <li><a href="#" class="footer-link">Fan Zone</a></li>
+                            <li><a href="content.html" class="footer-link">Content Hub</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">SUPPORT</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Contact</a></li>
+                            <li><a href="#" class="footer-link">FAQ</a></li>
+                            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 ASPECT Esports. All rights reserved.</p>
+                
+                <div class="footer-social">
+                    <a href="https://twitter.com/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://youtube.com/@aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://twitch.tv/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Twitch">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://discord.gg/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

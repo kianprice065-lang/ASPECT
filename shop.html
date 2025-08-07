@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - ASPECT Esports</title>
+    <meta name="description" content="Shop official ASPECT Esports merchandise including jerseys, hoodies, accessories, and gaming gear.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <span class="logo-text">ASPECT</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link">HOME</a>
+                    <a href="partners.html" class="nav-link">PARTNERS</a>
+                    <a href="teams.html" class="nav-link">TEAMS</a>
+                    <a href="content.html" class="nav-link">CONTENT</a>
+                    <a href="news.html" class="nav-link">NEWS</a>
+                    <a href="shop.html" class="nav-link active">SHOP</a>
+                </nav>
+
+                <!-- Right side icons -->
+                <div class="header-icons">
+                    <button class="icon-btn">
+                        <i class="fas fa-user"></i>
+                    </button>
+                    <button class="icon-btn cart-btn">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="nav-mobile" id="mobileNav">
+                <a href="index.html" class="nav-link-mobile">HOME</a>
+                <a href="partners.html" class="nav-link-mobile">PARTNERS</a>
+                <a href="teams.html" class="nav-link-mobile">TEAMS</a>
+                <a href="content.html" class="nav-link-mobile">CONTENT</a>
+                <a href="news.html" class="nav-link-mobile">NEWS</a>
+                <a href="shop.html" class="nav-link-mobile">SHOP</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <div class="section-badge">
+                    <span>OFFICIAL MERCHANDISE</span>
+                </div>
+                <h1 class="page-title">
+                    ASPECT <span class="gradient-text">Store</span>
+                </h1>
+                <p class="page-subtitle">
+                    Represent your favorite esports organization with official ASPECT merchandise, gaming gear, and exclusive collectibles.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Product -->
+    <section class="featured-product">
+        <div class="container">
+            <div class="product-showcase">
+                <div class="product-images">
+                    <div class="main-image">
+                        <img src="https://images.pexels.com/photos/8148577/pexels-photo-8148577.jpeg?auto=compress&cs=tinysrgb&w=600" alt="ASPECT Championship Jersey">
+                        <div class="product-badge featured">LIMITED EDITION</div>
+                    </div>
+                    <div class="thumbnail-images">
+                        <img src="https://images.pexels.com/photos/8148577/pexels-photo-8148577.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Jersey Front" class="thumbnail active">
+                        <img src="https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Jersey Back" class="thumbnail">
+                        <img src="https://images.pexels.com/photos/8148577/pexels-photo-8148577.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Jersey Detail" class="thumbnail">
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h2 class="product-name">ASPECT VCT Champions Jersey 2024</h2>
+                    <div class="product-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="rating-count">(247 reviews)</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">$89.99</span>
+                        <span class="original-price">$109.99</span>
+                        <span class="discount">18% OFF</span>
+                    </div>
+                    <p class="product-description">
+                        Celebrate our VCT Champions victory with this limited edition jersey. Made from premium moisture-wicking fabric with official team branding and championship details.
+                    </p>
+                    <div class="product-options">
+                        <div class="size-selector">
+                            <label>Size:</label>
+                            <div class="size-options">
+                                <button class="size-btn">XS</button>
+                                <button class="size-btn">S</button>
+                                <button class="size-btn active">M</button>
+                                <button class="size-btn">L</button>
+                                <button class="size-btn">XL</button>
+                                <button class="size-btn">XXL</button>
+                            </div>
+                        </div>
+                        <div class="quantity-selector">
+                            <label>Quantity:</label>
+                            <div class="quantity-controls">
+                                <button class="qty-btn minus">-</button>
+                                <span class="qty-value">1</span>
+                                <button class="qty-btn plus">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart-btn primary">
+                            <i class="fas fa-shopping-cart"></i>
+                            ADD TO CART
+                        </button>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-features">
+                        <div class="feature">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>Free shipping on orders over $75</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-undo"></i>
+                            <span>30-day return policy</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-certificate"></i>
+                            <span>Officially licensed merchandise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="product-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="all">ALL PRODUCTS</button>
+                <button class="tab-btn" data-category="apparel">APPAREL</button>
+                <button class="tab-btn" data-category="accessories">ACCESSORIES</button>
+                <button class="tab-btn" data-category="gaming">GAMING GEAR</button>
+                <button class="tab-btn" data-category="collectibles">COLLECTIBLES</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="apparel">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=400" alt="ASPECT Hoodie">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">QUICK VIEW</button>
+                            <button class="add-to-cart-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                ADD TO CART
+                            </button>
+                        </div>
+                        <div class="product-badge">BESTSELLER</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ASPECT Gaming Hoodie</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span>(89)</span>
+                        </div>
+                        <p class="product-price">$59.99</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=400" alt="ASPECT Cap">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">QUICK VIEW</button>
+                            <button class="add-to-cart-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ASPECT Snapback Cap</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>(203)</span>
+                        </div>
+                        <p class="product-price">$29.99</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="gaming">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=400" alt="ASPECT Mouse Pad">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">QUICK VIEW</button>
+                            <button class="add-to-cart-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                ADD TO CART
+                            </button>
+                        </div>
+                        <div class="product-badge sale">SALE</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ASPECT Gaming Mouse Pad</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>(156)</span>
+                        </div>
+                        <p class="product-price">
+                            <span class="current-price">$19.99</span>
+                            <span class="original-price">$24.99</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="apparel">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/8148577/pexels-photo-8148577.jpeg?auto=compress&cs=tinysrgb&w=400" alt="ASPECT T-Shirt">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">QUICK VIEW</button>
+                            <button class="add-to-cart-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ASPECT Classic T-Shirt</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>(312)</span>
+                        </div>
+                        <p class="product-price">$24.99</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="gaming">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400" alt="ASPECT Keyboard">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">QUICK VIEW</button>
+                            <button class="add-to-cart-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                ADD TO CART
+                            </button>
+                        </div>
+                        <div class="product-badge">NEW</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ASPECT Pro Mechanical Keyboard</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span>(67)</span>
+                        </div>
+                        <p class="product-price">$149.99</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="collectibles">
+                    <div class="product-image">
+                        <img src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=400" alt="ASPECT Trophy Replica">
+                        <div class="product-overlay">
+                            <button class="quick-view-btn">QUICK VIEW</button>
+                            <button class="add-to-cart-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                ADD TO CART
+                            </button>
+                        </div>
+                        <div class="product-badge limited">LIMITED</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">VCT Champions Trophy Replica</h3>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>(45)</span>
+                        </div>
+                        <p class="product-price">$199.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart" id="closeCart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items">
+            <div class="empty-cart">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Your cart is empty</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total: $0.00</span>
+            </div>
+            <button class="checkout-btn">
+                PROCEED TO CHECKOUT
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Cart Overlay -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Logo and Description -->
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <span class="logo-text">ASPECT</span>
+                    </div>
+                    <p class="footer-description">
+                        Elite esports organization breeding the next generation of professional gamers, content creators, and competitive champions.
+                    </p>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="footer-title">ORGANIZATION</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">About Us</a></li>
+                            <li><a href="teams.html" class="footer-link">Our Teams</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                            <li><a href="#" class="footer-link">Press Kit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">COMPETITIONS</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Tournaments</a></li>
+                            <li><a href="#" class="footer-link">Match Schedule</a></li>
+                            <li><a href="#" class="footer-link">Results</a></li>
+                            <li><a href="#" class="footer-link">Rankings</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">COMMUNITY</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Discord</a></li>
+                            <li><a href="#" class="footer-link">Forums</a></li>
+                            <li><a href="#" class="footer-link">Fan Zone</a></li>
+                            <li><a href="content.html" class="footer-link">Content Hub</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">SUPPORT</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Contact</a></li>
+                            <li><a href="#" class="footer-link">FAQ</a></li>
+                            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 ASPECT Esports. All rights reserved.</p>
+                
+                <div class="footer-social">
+                    <a href="https://twitter.com/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://youtube.com/@aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://twitch.tv/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Twitch">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://discord.gg/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

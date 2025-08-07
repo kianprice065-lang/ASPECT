@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - ASPECT Esports</title>
+    <meta name="description" content="Stay updated with the latest news, announcements, and updates from ASPECT Esports.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <span class="logo-text">ASPECT</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link">HOME</a>
+                    <a href="partners.html" class="nav-link">PARTNERS</a>
+                    <a href="teams.html" class="nav-link">TEAMS</a>
+                    <a href="content.html" class="nav-link">CONTENT</a>
+                    <a href="news.html" class="nav-link active">NEWS</a>
+                    <a href="shop.html" class="nav-link">SHOP</a>
+                </nav>
+
+                <!-- Right side icons -->
+                <div class="header-icons">
+                    <button class="icon-btn">
+                        <i class="fas fa-user"></i>
+                    </button>
+                    <button class="icon-btn">
+                        <i class="fas fa-shopping-bag"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="nav-mobile" id="mobileNav">
+                <a href="index.html" class="nav-link-mobile">HOME</a>
+                <a href="partners.html" class="nav-link-mobile">PARTNERS</a>
+                <a href="teams.html" class="nav-link-mobile">TEAMS</a>
+                <a href="content.html" class="nav-link-mobile">CONTENT</a>
+                <a href="news.html" class="nav-link-mobile">NEWS</a>
+                <a href="shop.html" class="nav-link-mobile">SHOP</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <div class="section-badge">
+                    <span>LATEST UPDATES</span>
+                </div>
+                <h1 class="page-title">
+                    ASPECT <span class="gradient-text">News</span>
+                </h1>
+                <p class="page-subtitle">
+                    Stay informed with the latest announcements, match results, roster changes, and exclusive insights from the world of ASPECT Esports.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breaking News -->
+    <section class="breaking-news">
+        <div class="container">
+            <div class="breaking-banner">
+                <div class="breaking-label">
+                    <i class="fas fa-bolt"></i>
+                    BREAKING
+                </div>
+                <div class="breaking-text">
+                    ASPECT VALORANT wins VCT Champions 2024 in a thrilling 3-2 victory over Team Liquid!
+                </div>
+                <button class="breaking-btn">
+                    READ MORE
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured News -->
+    <section class="featured-news">
+        <div class="container">
+            <div class="news-featured">
+                <div class="news-image">
+                    <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=800" alt="VCT Champions Victory">
+                    <div class="news-overlay"></div>
+                    <div class="news-category featured">CHAMPIONSHIP</div>
+                </div>
+                <div class="news-content">
+                    <h2 class="news-title">ASPECT Crowned VCT Champions 2024</h2>
+                    <p class="news-excerpt">
+                        In an electrifying grand final that went the full distance, ASPECT VALORANT secured their first VCT Champions title with a stunning 3-2 victory over Team Liquid. The series showcased incredible individual performances and tactical masterclasses that will be remembered for years to come.
+                    </p>
+                    <div class="news-meta">
+                        <div class="news-author">
+                            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=50" alt="Author">
+                            <span>By Sarah Chen, Esports Journalist</span>
+                        </div>
+                        <div class="news-date">
+                            <i class="fas fa-calendar"></i>
+                            <span>January 15, 2024</span>
+                        </div>
+                        <div class="news-read-time">
+                            <i class="fas fa-clock"></i>
+                            <span>5 min read</span>
+                        </div>
+                    </div>
+                    <button class="read-more-btn">
+                        READ FULL ARTICLE
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Categories -->
+    <section class="news-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="all">ALL NEWS</button>
+                <button class="tab-btn" data-category="announcements">ANNOUNCEMENTS</button>
+                <button class="tab-btn" data-category="results">MATCH RESULTS</button>
+                <button class="tab-btn" data-category="roster">ROSTER UPDATES</button>
+                <button class="tab-btn" data-category="partnerships">PARTNERSHIPS</button>
+            </div>
+
+            <div class="news-grid">
+                <div class="news-card" data-category="announcements">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=400" alt="New Roster Announcement">
+                        <div class="news-overlay"></div>
+                        <div class="news-category">ANNOUNCEMENT</div>
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-title">ASPECT Announces New League of Legends Roster</h3>
+                        <p class="news-excerpt">
+                            We're excited to unveil our revamped LEC roster featuring world-class talent and fresh strategic approaches for the upcoming season.
+                        </p>
+                        <div class="news-meta">
+                            <span class="news-date">January 12, 2024</span>
+                            <span class="news-author">ASPECT Media Team</span>
+                            <span class="news-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-card" data-category="results">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Match Results">
+                        <div class="news-overlay"></div>
+                        <div class="news-category">RESULTS</div>
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-title">CS2 Team Advances to ESL Pro League Playoffs</h3>
+                        <p class="news-excerpt">
+                            Our Counter-Strike 2 roster secured their playoff spot with a dominant 16-8 victory over FaZe Clan in the final group stage match.
+                        </p>
+                        <div class="news-meta">
+                            <span class="news-date">January 10, 2024</span>
+                            <span class="news-author">Match Reporter</span>
+                            <span class="news-read-time">4 min read</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-card" data-category="partnerships">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Partnership Announcement">
+                        <div class="news-overlay"></div>
+                        <div class="news-category">PARTNERSHIP</div>
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-title">NVIDIA Becomes Official GPU Partner</h3>
+                        <p class="news-excerpt">
+                            ASPECT partners with NVIDIA to equip all teams with cutting-edge RTX 4090 graphics cards and AI-powered performance optimization.
+                        </p>
+                        <div class="news-meta">
+                            <span class="news-date">January 8, 2024</span>
+                            <span class="news-author">Partnership Team</span>
+                            <span class="news-read-time">2 min read</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-card" data-category="roster">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Player Signing">
+                        <div class="news-overlay"></div>
+                        <div class="news-category">ROSTER UPDATE</div>
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-title">Star Duelist Joins VALORANT Roster</h3>
+                        <p class="news-excerpt">
+                            Welcome our newest addition to the VALORANT team - a proven champion with multiple international tournament victories.
+                        </p>
+                        <div class="news-meta">
+                            <span class="news-date">January 5, 2024</span>
+                            <span class="news-author">Roster Management</span>
+                            <span class="news-read-time">3 min read</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-card" data-category="results">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Tournament Victory">
+                        <div class="news-overlay"></div>
+                        <div class="news-category">RESULTS</div>
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-title">Rocket League Team Wins RLCS Regional</h3>
+                        <p class="news-excerpt">
+                            Our Rocket League squad dominated the regional championship with flawless teamwork and mechanical precision.
+                        </p>
+                        <div class="news-meta">
+                            <span class="news-date">January 3, 2024</span>
+                            <span class="news-author">Tournament Coverage</span>
+                            <span class="news-read-time">4 min read</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-card" data-category="announcements">
+                    <div class="news-image">
+                        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Gaming House">
+                        <div class="news-overlay"></div>
+                        <div class="news-category">ANNOUNCEMENT</div>
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-title">New State-of-the-Art Gaming Facility Opens</h3>
+                        <p class="news-excerpt">
+                            ASPECT unveils its revolutionary new training facility featuring the latest technology and optimal conditions for professional esports.
+                        </p>
+                        <div class="news-meta">
+                            <span class="news-date">December 28, 2023</span>
+                            <span class="news-author">Facilities Team</span>
+                            <span class="news-read-time">5 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2 class="newsletter-title">Stay in the Loop</h2>
+                    <p class="newsletter-description">
+                        Get the latest ASPECT news, match updates, and exclusive content delivered straight to your inbox.
+                    </p>
+                </div>
+                <div class="newsletter-form">
+                    <div class="input-group">
+                        <input type="email" placeholder="Enter your email address" class="newsletter-input">
+                        <button class="newsletter-btn">
+                            SUBSCRIBE
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <p class="newsletter-privacy">
+                        We respect your privacy. Unsubscribe at any time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Logo and Description -->
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <span class="logo-text">ASPECT</span>
+                    </div>
+                    <p class="footer-description">
+                        Elite esports organization breeding the next generation of professional gamers, content creators, and competitive champions.
+                    </p>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="footer-title">ORGANIZATION</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">About Us</a></li>
+                            <li><a href="teams.html" class="footer-link">Our Teams</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                            <li><a href="#" class="footer-link">Press Kit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">COMPETITIONS</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Tournaments</a></li>
+                            <li><a href="#" class="footer-link">Match Schedule</a></li>
+                            <li><a href="#" class="footer-link">Results</a></li>
+                            <li><a href="#" class="footer-link">Rankings</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">COMMUNITY</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Discord</a></li>
+                            <li><a href="#" class="footer-link">Forums</a></li>
+                            <li><a href="#" class="footer-link">Fan Zone</a></li>
+                            <li><a href="content.html" class="footer-link">Content Hub</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h3 class="footer-title">SUPPORT</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Contact</a></li>
+                            <li><a href="#" class="footer-link">FAQ</a></li>
+                            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 ASPECT Esports. All rights reserved.</p>
+                
+                <div class="footer-social">
+                    <a href="https://twitter.com/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://youtube.com/@aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://twitch.tv/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Twitch">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://discord.gg/aspectesports" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
